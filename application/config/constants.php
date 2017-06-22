@@ -85,15 +85,3 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
-    $environment = 0;
-    $clientId = "";
-    $clientSecret = "";
-    $ruName = "";
-    $authCode = "";
-    $userToken = "v^1.1#i^1#p^3#f^0#r^0#I^3#t^H4sIAAAAAAAAAOVXXWwURRzv9YuQcqAoKFjosUCC4N7N7N7e3a70zNEWW9OPo9eiFLDu7c62C3u7585c2zMhHsXUQIyxGokakWqMBgJBYvBB0KQxxA9qJPBCQqIIGm0I6ItRX8DZ6wfXokBbHi7xXi4z8//6/f6/mZ0BmdLZq/tq+/50u2YVDmRAptDlgmVgdmnJmrlFhYtLCkCOgWsgsyJT3Fv061osJ4yk1Ixw0jIx8vQkDBNL2clKJmWbkiVjHUumnEBYIooUizTUS5wXSEnbIpZiGYynrrqSgQEZxGGIDwicXwxoiM6aYzFbrEpGUbSQKoZECDkoysEAXcc4hepMTGSTVDIcgEEWBFiOawFQEqAEeS8EYhvj2YhsrFsmNfECJpwtV8r62jm13rpUGWNkExqECddF1seaInXVNY0ta305scKjPMSITFJ44qjKUpFno2yk0K3T4Ky1FEspCsKY8YVHMkwMKkXGiplG+VmqhThUEOJkHgUENY6Uu0LlestOyOTWdTgzuspqWVMJmUQn6dsxStmIb0MKGR010hB11R7nb0NKNnRNR3YlU7Musqk1VtPMeGLRqG116SpSHaQcDwJ+vx+ITFixdUKQvR2hJLK50UQj0UZpnpSpyjJV3SENexotsg7RqtFkbvw53FCjJrPJjmjEqSjXjh/nMNDmNHWkiynSaTp9RQlKhCc7vH0HxiRxQwR3SxQhTkW8X4sLQlAI8pC/SRTOXp+GMMJObyLRqM+pBcXlNJuQaRdI0pAVxCqU3lQC2boq8YLG8SENsWpA1Fi/qGlsXFADLNQQAgjF44oY+j/pgxBbj6cIGtfI5IUsyEomplhJFLUMXUkzk02yZ86oInpwJdNJSFLy+bq7u73dvNeyO3wcAND3VEN9TOlECZkZt9Vvb8zqWW0o9Kim9hJJJ2k1PVR6NLnZwYR5W43KNknHkGHQiTHhTqgtPHn2P0BiB2R+wXP8MQ0gJ3Wvo2uvYiV8lkz3sTPVnq3YcydGPkwJ8o7sChrZayNZtUwjPR3nKfjoZhcVlWWn/yWhs9fvPMAUksqKYqVMMh2Mo65T8NBShqYbhrN3ppMwx30qZZqykSa6gsdTzkj4kWSyTs0v4T+RwlRqzRbrEEEQJmy0uZoN+gXNOUsVFqpQFAQRzgi3irp0BbXreYbdTBnGjHBVo6486yfd6zAM4gr085zI0q+syvpDQoCVEQqyKuABDMkqH1e1GeFu6Mi3VoaCQASQhwL1mhG0KkOnR0RLOt8+ULUWJkidGTR6Q8wvUM5RM3bSqCKnsooQ4Fh/QFNZUeGCrKKJdwx50kTOReumO7Zv4iM3XJD9wV7XMdDrOkrfycAHVsLlYFlpUWtx0ZzFWCfIq8uaF+sdJn272ci7HaWTsm4Xlro2l390oD3nWT2wFTw4/rCeXQTLcl7ZoPzGSgmc94AbBkGAo7dHAUK+DSy/sVoMFxbf3//6om//sHtPvnbm2skfX9yy5sT1ob3APW7kcpUUFPe6Cna9sS+TPlgT3nTuh5XG8MVHT+35ast+7ePLzd1zjaZ5zcvcw6ETtXxPT/93VcP7NolzP2vZmVlaXvb71tiONZ8G/94w1DO84ML3ZZmmF47Pua/iYJ959qX2z9//7ZtLXw8uXPvOhqqnrx/869zpIffRwwdgwaq+Q9HW3W9eeeuTU+ePPnygs/fIocMCZNo6Vl17jCR+Gazoquh/Bpl40c8PlQ7Nf/a5L3a2nG+CS4RG6fmfBo8sPbtrW+099VWbyf7BFSVzFjx57wevvtxzddmsC6cvrzqyGJafqTi/4732hmAZaV0/X3kXet4Wve6L9ceqlzyyrWLXlwNXV++95C585cqSbmHd4x+e23x8d//ykfb9A7mGmvLwEAAA";
-    $ebayLoginPage = "";
-    $getTokenUrl = "/identity/v1/oauth2/token";
-    $accountUrl = "/sell/account/v1";
-    $inventoryUrl = "/sell/inventory/v1";
-    $baseUrl = "https://api.ebay.com";
-
